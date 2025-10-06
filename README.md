@@ -85,7 +85,7 @@ pip install -r requirements.txt
 ```
 
 ### Usage
-Run each individual evaluation method tested with all datasets and classifiers:
+Run each individual evaluation method tested with all datasets and classifiers (will prompt for dataset selection):
 ```bash
 python evaluation_methods/holdout_all.py
 python evaluation_methods/randomsub_all.py
@@ -100,5 +100,3 @@ python best_combinations/blobs_best.py
 python best_combinations/anisotropic_best.py
 python best_combinations/varied_best.py
 ```
-
-Note: Evaluation scripts require manual dataset selection within the code. User input functionality coming soon.
