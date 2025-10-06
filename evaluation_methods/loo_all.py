@@ -25,7 +25,7 @@ new_x = np.dot(base_x, [[0.6, -0.6], [-0.4, 0.8]])
 datasets_dict["anisotropic"] = (new_x, base_y)
 
 # Change this depending on which dataset you want to use
-current_dataset = "noisy_circles"
+current_dataset = input("Type in which dataset you'd like to use: ")
 
 X, y = datasets_dict[current_dataset]
 
