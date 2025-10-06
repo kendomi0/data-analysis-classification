@@ -74,5 +74,31 @@ Five datasets from sklearn:
 <img src="plots/anisotropic_plot.png" width="600" height="460">
 <img src="plots/varied_plot.png" width="600" height="460">
 
-## Installation & Usage
-*Documentation in progress*
+## Installation
+```bash
+# Clone repository
+git clone https://github.com/kendomi0/data-analysis-classification.git
+cd data-analysis-classification
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+### Usage
+Run each individual evaluation method tested with all datasets and classifiers:
+```bash
+python evaluation_methods/holdout_all.py
+python evaluation_methods/randomsub_all.py
+python evaluation_methods/loo_all.py
+python evaluation_methods/kfold_all.py
+```
+Run best combinations for each dataset:
+```bash
+python best_combinations/noisy_circles_best.py
+python best_combinations/noisy_moons_best.py
+python best_combinations/blobs_best.py
+python best_combinations/anisotropic_best.py
+python best_combinations/varied_best.py
+```
+
+Note: Evaluation scripts require manual dataset selection within the code. User input functionality coming soon.
