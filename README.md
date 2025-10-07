@@ -77,8 +77,8 @@ Five datasets from sklearn:
 ## Installation
 ```bash
 # Clone repository
-git clone https://github.com/kendomi0/data-analysis-classification.git
-cd data-analysis-classification
+git clone https://github.com/kendomi0/ml-classifier-comparison.git
+cd ml-classifier-comparison
 
 # Install dependencies
 pip install -r requirements.txt
